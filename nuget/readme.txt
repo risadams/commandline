@@ -1,4 +1,6 @@
-Command Line Parser Library 1.9.71.2 stable
+
+This is a fork of the https://github.com/commandlineparser/commandline to fix the API to the 1.9x release and update the .net framework version. While this fork is maintined for my specific project needs, It is recommended for new projects to use the official release
+Command Line Parser Library 1.9.80.0 stable
 ------------------------------------------
 Giacomo Stelluti Scala
 (gsscoder@gmail.com)

@@ -29,3 +29,5 @@ _ReSharper\.Caches/
 MigrationBackup/
 
 CommandLine\.sln\.GhostDoc\.xml
+
+*.log
