@@ -15,11 +15,9 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <tags>command line argument option parser parsing library syntax shell</tags>
     </metadata>
-    <files>        
-        <file src='C:\dev\commandline\src\libcmdline\bin\ReleaseCommandLine.dll' target='lib\net40\CommandLine.dll'/>
-        <file src='C:\dev\commandline\src\libcmdline\bin\ReleaseCommandLine.xml' target='lib\net40\CommandLine.xml'/>
-        <file src='C:\dev\commandline\src\libcmdline\bin\ReleaseCommandLine.dll' target='lib\net45\CommandLine.dll'/>
-        <file src='C:\dev\commandline\src\libcmdline\bin\ReleaseCommandLine.xml' target='lib\net45\CommandLine.xml'/>
+    <files>                
+        <file src='C:\dev\commandline\src\libcmdline\bin\Release\CommandLine.dll' target='lib\net472\CommandLine.dll'/>
+        <file src='C:\dev\commandline\src\libcmdline\bin\Release\CommandLine.xml' target='lib\net472\CommandLine.xml'/>
         <file src='C:\dev\commandline\nuget\readme.txt' target='readme.txt'/>
     </files>
 </package>
