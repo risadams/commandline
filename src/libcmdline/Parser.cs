@@ -63,7 +63,7 @@ namespace CommandLine
         /// </summary>
         /// <param name="settings">The <see cref="ParserSettings"/> object is used to configure
         /// aspects and behaviors of the parser.</param>
-        [Obsolete("Use constructor that accepts Action<ParserSettings>.")]
+        //[Obsolete("Use constructor that accepts Action<ParserSettings>.")]
         public Parser(ParserSettings settings)
         {
             Assumes.NotNull(settings, "settings", SR.ArgumentNullException_ParserSettingsInstanceCannotBeNull);

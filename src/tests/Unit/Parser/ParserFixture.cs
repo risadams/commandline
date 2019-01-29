@@ -388,6 +388,7 @@ namespace CommandLine.Tests.Unit.Parser
             options.IntegerValue.Should().Be(-4096);
         }
 
+        [Fact]
         public void ParseNegativeIntegerValue_InputStyle2()
         {
             var options = new NumberSetOptions();
@@ -398,6 +399,7 @@ namespace CommandLine.Tests.Unit.Parser
             options.IntegerValue.Should().Be(-4096);
         }
 
+        [Fact]
         public void ParseNegativeIntegerValue_InputStyle3()
         {
             var options = new NumberSetOptions();
@@ -408,6 +410,7 @@ namespace CommandLine.Tests.Unit.Parser
             options.IntegerValue.Should().Be(-4096);
         }
 
+		[Fact]
         public void ParseNegativeIntegerValue_InputStyle4()
         {
             var options = new NumberSetOptions();

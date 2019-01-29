@@ -68,29 +68,7 @@ namespace CommandLine.Tests.Unit.Parser
             writer.ToString().Should().Be("MockOptions::GetUsage()");
         }
 
-        [Fact]
-        public void Setting_instance_is_not_reusable()
-        {
-            var settings = new ParserSettings(helpWriter: Console.Out);
-
-            var parser = new CommandLine.Parser(settings);
-
-            Assert.ThrowsDelegate act = () => { var parser2 = new CommandLine.Parser(settings); };
-
-            Assert.Throws<InvalidOperationException>(act);
-        }
-
-        [Fact]
-        public void Setting_instance_became_immutable_after_being_consumed()
-        {
-            var settings = new ParserSettings { ParsingCulture = new CultureInfo("it-IT") };
-
-            var parser = new CommandLine.Parser(settings);
-
-            Assert.ThrowsDelegate act = () => { settings.HelpWriter = Console.Out; };
-
-            Assert.Throws<InvalidOperationException>(act);
-        }
+       
 
         //[Fact]
         //public void Setting_help_writer_using_argument()

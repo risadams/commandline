@@ -22,3 +22,10 @@ TestResult.xml
 *.nupkg
 *.old
 StyleCop.Cache
+\.vs/
+
+_ReSharper\.Caches/
+
+MigrationBackup/
+
+CommandLine\.sln\.GhostDoc\.xml
