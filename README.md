@@ -1,3 +1,6 @@
+This is a fork of the https://github.com/commandlineparser/commandline to fix the API to the 1.9x release and update the .net framework version. While this fork is maintined for my specific project needs, It is recommended for new projects to use the official release
+Command Line Parser Library 1.9.80.0 stable
+
 Command Line Parser Library 1.9.71.2 stable for CLR.
 ===
 The Command Line Parser Library offers to CLR applications a clean and concise API for manipulating command line arguments and related tasks defining switches, options and verb commands. It allows you to display an help screen with an high degree of customization and a simple way to report syntax errors to the end user. Everything that is boring and repetitive to be programmed stands up on library shoulders, letting developers concentrate on core logic.
